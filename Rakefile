@@ -140,6 +140,7 @@ def run_bundle_config
 end
 
 def install_rvm_binstubs
+  return if $rvm_path.nil?
   puts "======================================================"
   puts "Installing RVM Bundler support. Never have to type"
   puts "bundle exec again! Please use bundle --binstubs and RVM"
