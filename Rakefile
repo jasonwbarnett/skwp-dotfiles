@@ -64,7 +64,6 @@ task :submodules do
     puts "======================================================"
 
     run %{
-      cd $HOME/.yadr
       git submodule update --recursive
       git clean -df
     }
@@ -103,7 +102,6 @@ task :install_vundle do
   vundle_path = File.join('vim','bundle', 'vundle')
   unless File.exists?(vundle_path)
     run %{
-      cd $HOME/.yadr
       git clone https://github.com/gmarik/vundle.git #{vundle_path}
     }
   end
