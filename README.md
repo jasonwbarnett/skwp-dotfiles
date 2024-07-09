@@ -8,7 +8,7 @@
     # Yet Another Dotfile Repo v1.1
     # Now with Prezto and Vundle!
 
-#### sh -c "\`curl -fsSL https://raw.githubusercontent.com/jasonwbarnett/skwp-dotfiles/my-changes-rebased-2022-07-28/install.sh \`"
+#### sh -c "\`curl -fsSL https://raw.githubusercontent.com/jasonwbarnett/skwp-dotfiles/my-changes-rebased-2024-07-09/install.sh \`"
 
 **Always be sure to run `rake update` after pulling to ensure plugins are updated**
 
@@ -39,14 +39,14 @@ Please use GitHub Issues for pull requests or bug reports only.
 To get started please run:
 
 ```bash
-sh -c "`curl -fsSL https://raw.githubusercontent.com/jasonwbarnett/skwp-dotfiles/my-changes-rebased-2022-07-28/install.sh`"
+sh -c "`curl -fsSL https://raw.githubusercontent.com/jasonwbarnett/skwp-dotfiles/my-changes-rebased-2024-07-09/install.sh`"
 ```
 
 **Note:** YADR will automatically install all of its subcomponents. If you want to be asked
 about each one, use:
 
 ```bash
-sh -c "`curl -fsSL https://raw.githubusercontent.com/jasonwbarnett/skwp-dotfiles/my-changes-rebased-2022-07-28/install.sh`" -s ask
+sh -c "`curl -fsSL https://raw.githubusercontent.com/jasonwbarnett/skwp-dotfiles/my-changes-rebased-2024-07-09/install.sh`" -s ask
 ```
 
 ## Wait, you're not done! Do this:
